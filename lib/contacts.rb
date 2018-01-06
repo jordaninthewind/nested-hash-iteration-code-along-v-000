@@ -16,8 +16,9 @@ require 'pry'
 
 def remove_strawberry(contacts)
   contacts.each do | names, values |
-    values.each do | key, atr |
-      if key == favorite_ice_cream_flavors
-    end
+    binding.pry
+    # values.each do | key, atr |
+    #   if key == favorite_ice_cream_flavors
+    # end
   end
 end
